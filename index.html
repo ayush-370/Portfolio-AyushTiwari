@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayush Tiwari | Full Stack & ML Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div id="robot-overlay" class="robot-overlay">
+  <div class="robot-box">
+    <div class="robot-icon">
+      <i class="fa-solid fa-robot fa-bounce"></i>
+    </div>
+    <div class="speech-bubble">
+      <h3 id="robot-greeting">Initializing system...</h3>
+      <p id="robot-text"></p>
+    </div>
+    <button id="skip-intro-btn" class="btn btn-secondary btn-sm" style="margin-top: 20px; display: none;">
+      Skip Introduction <i class="fa-solid fa-forward"></i>
+    </button>
+  </div>
+</div>
+
+<div id="main-portfolio-content" class="portfolio-hidden">
+
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">Ayush Tiwari</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-btn" id="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge">Portfolio // Full Stack & ML Developer</div>
+        <h1 class="hero-title">Hi, I'm <span>Ayush Tiwari</span></h1>
+        <p class="hero-subtitle">B.Tech Computer Science Student @ PSIT</p>
+        <p class="hero-desc">Highly motivated developer specializing in building intelligent web applications, automated logic workflows, and data-driven solutions.</p>
+        <div class="btn-group">
+          <a href="#projects" class="btn btn-primary">View Featured Work <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+     
+      <div class="image-canvas">
+        <div class="aura-blur"></div>
+        <div class="spinning-ring"></div>
+        <div class="frame-container">
+          <div class="inner-clip">
+            <img src="1.jpeg" alt="Ayush Tiwari Professional Portrait">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">Core Passions</h2>
+      <p class="section-subtitle">The pillars driving my software development and data science engineering loops.</p>
+      <div class="passions-grid">
+        <div class="glass-card passion-card">
+          <div class="icon-box"><i class="fa-solid fa-layer-group" style="color: #60a5fa;"></i></div>
+          <h3>Full Stack Development</h3>
+          <p>Building responsive architectures with optimized API rendering and secure authentication logic structures.</p>
+        </div>
+        <div class="glass-card passion-card">
+          <div class="icon-box"><i class="fa-solid fa-chart-line" style="color: #34d399;"></i></div>
+          <h3>Machine Learning & Data Science</h3>
+          <p>Developing intelligent automated classification models and exploring deep spending trends using EDA techniques.</p>
+        </div>
+        <div class="glass-card passion-card">
+          <div class="icon-box"><i class="fa-solid fa-brain" style="color: #c084fc;"></i></div>
+          <h3>Algorithmic Problem Solving</h3>
+          <p>Consistently tackling complex logic challenges and refining performance constraints through structural data matrices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Framework</h2>
+      <p class="section-subtitle">The tech stacks and programming workflows I actively manage.</p>
+      <div class="skills-grid">
+        <div class="glass-card skill-box">
+          <h3 style="color: #60a5fa;">Languages & Databases</h3>
+          <ul class="skill-list">
+            <li>Python</li>
+            <li>JavaScript (ES6+)</li>
+            <li>SQL</li>
+            <li>HTML5 & CSS3</li>
+          </ul>
+        </div>
+        <div class="glass-card skill-box">
+          <h3 style="color: #34d399;">Web Frameworks</h3>
+          <ul class="skill-list">
+            <li>React.js</li>
+            <li>Node.js & Express.js</li>
+            <li>MongoDB</li>
+            <li>Tailwind CSS & Bootstrap</li>
+          </ul>
+        </div>
+        <div class="glass-card skill-box">
+          <h3 style="color: #c084fc;">ML & Data Science</h3>
+          <ul class="skill-list">
+            <li>Scikit-learn</li>
+            <li>NumPy & Pandas</li>
+            <li>Matplotlib</li>
+            <li>OpenCV</li>
+          </ul>
+        </div>
+        <div class="glass-card skill-box">
+          <h3 style="color: #f472b6;">Developer Tools</h3>
+          <ul class="skill-list">
+            <li>Git & GitHub</li>
+            <li>Vercel</li>
+            <li>VS Code</li>
+            <li>RESTful APIs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Work</h2>
+      <p class="section-subtitle">Applied full stack solutions integrated with machine learning models.</p>
+      <div class="projects-container">
+        
+
+        <div class="glass-card project-row">
+          <div class="proj-media">
+            <i class="fa-solid fa-wallet"></i>
+          </div>
+          <div class="proj-content">
+            <h3>Expenzo - Smart Expense Management Platform</h3>
+            <p>Engineered a real-time expense management platform integrating Machine Learning-based transaction classification and expenditure analytics. Built automated expense categorization models and data processing workflows, reducing manual organization efforts for users.</p>
+            
+            <h4 class="highlights-title">Key Framework Highlights</h4>
+            <ul class="highlights-list">
+              <li><i class="fa-solid fa-circle"></i> Applied EDA techniques to uncover spending trends and support data-driven budgeting decisions.</li>
+              <li><i class="fa-solid fa-circle"></i> Developed interactive dashboards for real-time expense monitoring and trend visualization.</li>
+              <li><i class="fa-solid fa-circle"></i> Integrated secure database management and authentication mechanisms to ensure data integrity.</li>
+              <li><i class="fa-solid fa-circle"></i> Deployed on scalable cloud infrastructure supporting reliable tracking loops.</li>
+            </ul>
+            
+            <div class="tech-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">Pandas</span>
+            </div>
+            
+            <div class="proj-actions">
+              <a href="#" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> GitHub</a>
+              <a href="#" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="certs">
+    <div class="container">
+      <h2 class="section-title">Credentials & Achievements</h2>
+      <p class="section-subtitle">Verified technical milestones, coding badges, and academic program certificates.</p>
+      <div class="certs-grid">
+        
+        <div class="glass-card cert-card">
+          <div class="cert-img-container">
+            <img src="2.jpeg" alt="Programming Fundamentals using Python Certificate">
+          </div>
+          <div class="cert-info-content">
+            <span class="cert-org">Infosys Springboard</span>
+            <h3>Programming Fundamentals using Python</h3>
+            <p class="cert-meta">Verified Foundation Program Track</p>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-img-container">
+            <img src="3.jpeg" alt="Programming Fundamentals using Python - Science Graduates Certificate">
+          </div>
+          <div class="cert-info-content">
+            <span class="cert-org">Infosys Springboard</span>
+            <h3>Programming Fundamentals using Python (Advanced)</h3>
+            <p class="cert-meta">Science Graduates Extension Program</p>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-img-container">
+            <img src="4.jpeg" alt="Database Management System Certificate">
+          </div>
+          <div class="cert-info-content">
+            <span class="cert-org">Infosys Springboard</span>
+            <h3>Database Management System Part - 1</h3>
+            <p class="cert-meta">Relational System Architectures Core</p>
+          </div>
+        </div>
+
+    
+        <div class="glass-card cert-card highlight-badge-card">
+          <div class="cert-img-container">
+            <img src="5.jpeg" alt="LeetCode 50 Days Badge">
+          </div>
+          <div class="cert-info-content">
+            <span class="cert-org">LeetCode Achievement</span>
+            <h3>LeetCode Badges 2025</h3>
+            <p class="cert-meta">Solving problems 50+ days with algorithmic proficiency</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container contact-grid">
+      <div class="info-col">
+        <div>
+          <h2 class="section-title" style="text-align: left; margin-bottom: 20px;">Let's Connect.</h2>
+          <p>Open for discussions regarding full-stack architecture loops, analytics pipelines, or innovative data science roles.</p>
+          <div class="channels">
+            <a href="mailto:2024.cs1g.ayusht@gmail.com" class="channel-link">
+              <div class="box"><i class="fa-solid fa-envelope"></i></div>
+              <span>2024.cs1g.ayusht@gmail.com</span>
+            </a>
+            <a href="https://github.com/AyushTiwari" target="_blank" class="channel-link">
+              <div class="box"><i class="fa-brands fa-github"></i></div>
+              <span>github.com/AyushTiwari</span>
+            </a>
+            <a href="https://linkedin.com/in/ayush-tiwari-831" target="_blank" class="channel-link">
+              <div class="box"><i class="fa-brands fa-linkedin"></i></div>
+              <span>linkedin.com/in/ayush-tiwari-831</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-col">
+        <div class="glass-card form-box">
+          <form id="portfolio-form">
+            <div class="form-group">
+              <label>Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+              <label>Email Address</label>
+              <input type="email" class="form-control" placeholder="name@domain.com" required>
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea class="form-control" rows="4" placeholder="State your message..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">Dispatch Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container footer-layout">
+      <p>Designed and Built by Ayush Tiwari © 2026</p>
+    </div>
+  </footer>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
